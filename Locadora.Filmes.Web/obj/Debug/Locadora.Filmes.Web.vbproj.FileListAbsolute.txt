@@ -81,3 +81,15 @@ C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\obj\Debug\Locado
 C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\obj\Debug\Locadora.Filmes.Web.dll
 C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\obj\Debug\Locadora.Filmes.Web.xml
 C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\obj\Debug\Locadora.Filmes.Web.pdb
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\EntityFramework.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Dados.Entity.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Dominio.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Generica.Entity.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Dados.Entity.pdb
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Dados.Entity.dll.config
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Dominio.pdb
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Generica.Entity.pdb
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\Locadora.Filmes.Generica.Entity.dll.config
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\EntityFramework.xml
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Web\bin\EntityFramework.SqlServer.xml

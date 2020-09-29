@@ -73,10 +73,6 @@
       <Project>{d47a47a6-0ecf-450e-be4d-0c0a562d6d68}</Project>
       <Name>Locadora.Filmes.Generica.Entity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Locadora.Filmes.Web\Locadora.Filmes.Web.vbproj">
-      <Project>{c044a23a-9a71-48f4-9e82-c4cec64adaec}</Project>
-      <Name>Locadora.Filmes.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202009290108094_MigracaoInicial.resx">

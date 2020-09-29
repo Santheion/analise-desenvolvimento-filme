@@ -1,0 +1,12 @@
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CoreCompileInputs.cache
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll.config
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.pdb
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.xml
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csprojAssemblyReference.cache
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CopyComplete
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.dll
+C:\Users\dougl\source\repos\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.pdb

@@ -5,12 +5,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9DFFF53-227C-45D8-A096-210BE65D1446}</ProjectGuid>
+    <ProjectGuid>{48CF3BC2-FDB8-44F9-922A-B25BD6B755EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Locadora.Filmes.Dados.Entity</RootNamespace>
     <AssemblyName>Locadora.Filmes.Dados.Entity</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
@@ -52,13 +52,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\FilmeDbContext.cs" />
-    <Compile Include="Migrations\202009290108094_MigracaoInicial.cs" />
-    <Compile Include="Migrations\202009290108094_MigracaoInicial.designer.cs">
-      <DependentUpon>202009290108094_MigracaoInicial.cs</DependentUpon>
+    <Compile Include="Migrations\202009180031272_MigracaoInical.cs" />
+    <Compile Include="Migrations\202009180031272_MigracaoInical.designer.cs">
+      <DependentUpon>202009180031272_MigracaoInical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009180051065_AdicaoAutor.cs" />
+    <Compile Include="Migrations\202009180051065_AdicaoAutor.designer.cs">
+      <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010230025364_MigracaoEmail.cs" />
+    <Compile Include="Migrations\202010230025364_MigracaoEmail.designer.cs">
+      <DependentUpon>202010230025364_MigracaoEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011040007546_AdicaoFilmesOk.cs" />
+    <Compile Include="Migrations\202011040007546_AdicaoFilmesOk.designer.cs">
+      <DependentUpon>202011040007546_AdicaoFilmesOk.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
+    <Compile Include="TypeConfiguration\FilmeTypeConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,23 +79,32 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Locadora.Filmes.Dominio\Locadora.Filmes.Dominio.csproj">
-      <Project>{85bed9fd-754d-492d-86d5-9313bd3fa6de}</Project>
+      <Project>{5ace834b-b1b3-4e4f-8c6a-459039b4ffb4}</Project>
       <Name>Locadora.Filmes.Dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locadora.Filmes.Generica.Entity\Locadora.Filmes.Generica.Entity.csproj">
-      <Project>{d47a47a6-0ecf-450e-be4d-0c0a562d6d68}</Project>
+      <Project>{3de5ef59-3f5e-45bd-9d80-a82139923fc4}</Project>
       <Name>Locadora.Filmes.Generica.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202009290108094_MigracaoInicial.resx">
-      <DependentUpon>202009290108094_MigracaoInicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202009180031272_MigracaoInical.resx">
+      <DependentUpon>202009180031272_MigracaoInical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009180051065_AdicaoAutor.resx">
+      <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010230025364_MigracaoEmail.resx">
+      <DependentUpon>202010230025364_MigracaoEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011040007546_AdicaoFilmesOk.resx">
+      <DependentUpon>202011040007546_AdicaoFilmesOk.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />

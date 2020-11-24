@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Locadora.Filmes.Generica.Entity
 {
     public abstract class LocadoraEntityAbstractConfig<TEntidade> : EntityTypeConfiguration<TEntidade>
-        where TEntidade: class
+        where TEntidade : class
     {
         public LocadoraEntityAbstractConfig()
         {
@@ -19,8 +19,11 @@ namespace Locadora.Filmes.Generica.Entity
         }
 
         protected abstract void ConfigurarChaveEstrangeira();
+
         protected abstract void ConfigurarChavePrimaria();
+
         protected abstract void ConfigurarCamposTabela();
+
         protected abstract void ConfigurarNomeTabela();
     }
 }

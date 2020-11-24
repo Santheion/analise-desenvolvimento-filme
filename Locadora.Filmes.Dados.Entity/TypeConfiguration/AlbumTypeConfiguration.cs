@@ -19,7 +19,7 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
 
             Property(p => p.Nome)
                 .IsRequired()
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .HasColumnName("Nome");
 
             Property(p => p.Ano)
@@ -27,13 +27,22 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
                 .HasColumnName("Ano");
 
             Property(p => p.Descricao)
-                .HasColumnName("Descricao")
-                .HasMaxLength(1000);
+                .IsOptional()
+                .HasMaxLength(1000)
+                .HasColumnName("Descricao");
+
+            Property(p => p.Autor)
+                .IsRequired()
+                .HasMaxLength(100)
+                .HasColumnName("Autor");
+
+            Property(p => p.Email)
+                .IsRequired()
+                .HasColumnName("Email");
         }
 
         protected override void ConfigurarChaveEstrangeira()
-        {
-            
+        {            
         }
 
         protected override void ConfigurarChavePrimaria()
@@ -43,7 +52,7 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
 
         protected override void ConfigurarNomeTabela()
         {
-            ToTable("Albuns");
+            ToTable("Album");
         }
     }
 }
